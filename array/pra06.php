@@ -9,7 +9,21 @@
 <body>
     <h1>反轉陣列</h1>
 <?php
+$a=[2,4,6,1,8];
+echo "<pre>";
+print_r($a);
+echo "<pre>";
 
+for($i=0;$i<count($a);$i++){
+$t=$a[$i];
+$a[$i]=$a[count($a)-1-$i];
+$a[count($a)-1-$i]=$t;
+}
+
+echo "<pre>";
+print_r ($t);
+echo "</pre>";
+echo
 ?>
 </body>
 </html>
