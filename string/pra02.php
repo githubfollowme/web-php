@@ -23,7 +23,7 @@ if($split[1]=='jpg' || $split[1]=='gif' ||$split[1]=='png'){
     echo '是圖檔';
 }
 $newFileName='20211025'.rand(10000,99999).".".$split[1];
-echo "新檔名為:". newFileName;
+echo "新檔名為:". $newFileName;
 ?>
 </body>
 </html>
