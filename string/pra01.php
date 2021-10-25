@@ -27,9 +27,11 @@ $array=[];
 for($i=0;$i<strlen($str);$i++){
     // 
     $s=substr($str,$i,1);
-    if(!in_array($s,$array)){
+    // if(!in_array($s,$array)){
+        // 其實不寫重複也可取值出來
         $array[]=$s;
-    }
+        // echo [$i];
+    // }
 }
 
 ?>
