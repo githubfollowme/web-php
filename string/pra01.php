@@ -20,6 +20,7 @@ print_r($str);
 
 echo "<hr>";
 echo str_replace(['a','d','w','1','2','3'],"*",strlen($str));
+echo "<hr>";
 // 聰明喔 用陣列直接全換 還有更聰明的 用explode先去拆字
 //可是一開始槓龜了 但是有個解決辦法
 //用while可以把重複的東西 避免再跑出來(回想威力彩)
@@ -30,7 +31,7 @@ for($i=0;$i<strlen($str);$i++){
     // if(!in_array($s,$array)){
         // 其實不寫重複也可取值出來
         $array[]=$s;
-        // echo [$i];
+        echo $array[$i];
     // }
 }
 
