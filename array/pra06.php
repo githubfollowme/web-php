@@ -23,7 +23,15 @@ $a[count($a)-1-$i]=$t;
 echo "<pre>";
 print_r ($t);
 echo "</pre>";
-echo
+
+$ar=array('a','x','c','2');
+print_r(array_reverse($ar));
+echo "<pre>";
+print_r($ar);
+echo "</pre>";
+
 ?>
+
+
 </body>
 </html>

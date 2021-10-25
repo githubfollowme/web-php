@@ -1,0 +1,12 @@
+﻿git-本地- push 專案-資源庫
+github-遠端
+github page靜態
+github classroom
+github gist~
+
+上傳後 github
+兩個程式可以做一個對照
+====
+ctrl+c 可以中斷~
+
+pull跟clone差別在哪 結果看起來是都一樣的,只差在能不能變名稱

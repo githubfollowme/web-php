@@ -1,0 +1,7 @@
+﻿Q echo<'pre'>跟print差別在哪
+
+string
+Q pra01
+為何不能直接換成一堆星星
+
+Qgithub的mark read怎麼用的
