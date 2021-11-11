@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-self: space-between;
+    background-color: lightslategray;
+}
+
+.title {
+font-style: italic;
+    background-image: url("https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    width: 100%;
+    background-size: cover;
+    padding: auto;
+    color: white;
+    text-align: center;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: calc(65%/3);
+    border: 30px solid burlywood;
+    margin: 20px;
+    padding: 20px 10px;
+}
+
+.card-img {
+    max-width: 100%;
+    height: auto;
+}
+
+div {
+    border: 1px solid lightgray;
+}
+
+@media (max-width: 700px) {
+    header{
+height:100vh;
+display: flex;
+flex-direction: column;    
+}
+    .card {
+        width: 100%;
+        background-color: cornflowerblue;
+    }
+    .card>h1{font-size: 24px;
+    color: whitesmoke;}
+    .card>h1{font-size: 12px;}
+    .main {
+        text-align: center;
+        max-width: 720px;
+        background-color: lightpink;
+    }
+}
+
+@media (min-width:400px) and (max-width: 576px) {
+    .card {
+        width: 100%;
+        background-color: lightsteelblue;
+    }
+    .card>h1 {
+        font-size: 16px;
+        color: mediumslateblue
+    }
+    .card>p {
+        font-size: 8px;
+    }
+    .main {
+        max-width: 540px;
+        background-color: magenta;
+    }
+}
+
+/* @media (min-width:400px){
+    .card{
+        width: 100%;
+        background-color:mediumslateblue;
+    }
+    .main {
+        text-align: center;
+        max-width: 720px;
+        background-color: lightpink;
+    }
+}
+
+@media (min-width:699px)and(max-width:800px){
+    .card{
+        width: 30%;
+        background-color:limegreen;
+    }
+    .main {
+        text-align: center;
+        max-width: 720px;
+        background-color: lightpink;
+    }
+} */

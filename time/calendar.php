@@ -42,25 +42,25 @@ echo"<br>";
     for ($i = 0; $i < 7; $i++) {
         echo "</tr>";
         
-        // for ($j = 0; $j < 7; $j++) {
-        //     if($i==0 $$ $j<5){
-        //     echo "<td>";
-        //     echo $i * 7 + $j + 1;
-        //     echo "</td>";}
-        // }elseif($i==5 && $j>0){
-        //     echo"<td>";
-        //     echo"&nbsp;";
-        //     echo"</td>";
-        // }
+        for ($j = 0; $j < 7; $j++) {
+            if($i==0 $$ $j<5){
+            echo "<td>";
+            echo $i * 7 + $j + 1;
+            echo "</td>";}
+        }elseif($i==5 && $j>0){
+            echo"<td>";
+            echo"&nbsp;";
+            echo"</td>";
+        }
 
-    //     else{
-    //         echo"<td>";
-    //     }
-    // }
-    //     echo "</tr>";
-    // }
-    // echo "</table>";
-    // ?>
+        else{
+            echo"<td>";
+        }
+    }
+        echo "</tr>";
+    }
+    echo "</table>";
+    ?>
 </body>
 
 </html>
